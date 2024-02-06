@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> </title>
+</head>
+<style type="text/css">
+	{
+		text-align: center;
+	}
+	.container {
+		background: #fff;
+		display: inline;
+	}
+	header {
+		text-align: center;
+		background-color: #e63e62;
+		border-radius: 10px;
+		height: 60px;
+		font-size: 30px;
+	}
+	.Left {
+		background-color: #483d8b;
+		text-align: center;
+		width: 200px;
+	}
+	.Main {
+		background-color: #ffa089;
+		text-align: center;
+		flex-grow: column wrap;
+		width: 200vh;
+	}
+	.Right {
+		background: #0067a5;
+		text-align: center;
+		width: 200px;
+	}
+	.Parent {
+		height: 80vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.footer {
+		background-color: #800020;
+		text-align: center;
+		border-radius: 10px;
+		height: 20vh;
+	}
+</style>
+<body>
+	<header> Header </header>
+<div class="Parent">
+	<div class="Left"> LEFT SIDEBAR </div>
+	<div class="Main"> MAIN CONTENT </div>
+	<div class="Right"> RIGHT SIDEBAR </div>
+</div>
+<div class="footer"> FOOTER </div>
+</body>
+</html>
